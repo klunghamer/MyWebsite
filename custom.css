@@ -5,3 +5,19 @@
 .img-responsive {
   border-radius: 5px;
 }
+
+.banner {
+  background: url('copenhagen.jpg') no-repeat center center;
+}
+
+#contrast {
+  text-shadow: 4px 4px 5px rgba(0,0,0,0.9)
+}
+
+.project-link {
+  color: black;
+}
+.project-link:hover {
+  text-decoration: none;
+  color: black;
+}
