@@ -1,0 +1,40 @@
+.body {
+  background-image: url("IMG_3125.JPG");
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  color: rgba(255, 255, 255, .1);
+  background-color: white;
+  overflow: hidden;
+  display: absolute;
+  padding: .5em;
+  width: 300px;
+  box-sizing: border-box;
+  margin: 1em;
+}
+
+span {
+  background-image: url("IMG_3125.JPG");
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+@media (width-max: 600px) {
+  body {
+    background-image: url("IMG_3125.JPG");
+    background-size: contain;
+  }
+}
