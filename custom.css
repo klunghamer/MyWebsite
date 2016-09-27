@@ -1,3 +1,7 @@
+.navbar-fixed-top {
+  top: -20;
+}
+
 .intro-header {
   background: url('Walloon-Lake.jpg') no-repeat center center;
 }
