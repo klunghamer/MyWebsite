@@ -15,7 +15,11 @@
 }
 
 #contrast {
-  text-shadow: 4px 4px 5px rgba(0,0,0,0.9)
+  /*text-shadow: 4px 4px 5px rgba(0,0,0,0.9)*/
+  background-color: #97BED1;
+  padding: .25em;
+  border-radius: 3px;
+  display: inline-block;
 }
 
 .project-link {
@@ -26,9 +30,6 @@
   color: black;
 }
 
-.span {
-  font-weight: 800;
-}
 
 @media (min-width: 786px) {
   .kelly {
