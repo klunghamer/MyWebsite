@@ -14,12 +14,15 @@
   background: url('./pics/copenhagen.jpg') no-repeat center center;
 }
 
-#contrast {
-  /*text-shadow: 4px 4px 5px rgba(0,0,0,0.9)*/
+.contrast {
   background-color: #97BED1;
   padding: .25em;
-  border-radius: 3px;
+  border-radius: 5px;
   display: inline-block;
+}
+
+.email {
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
 .project-link {
@@ -28,11 +31,4 @@
 .project-link:hover {
   text-decoration: none;
   color: black;
-}
-
-
-@media (min-width: 786px) {
-  .kelly {
-    margin-top: 7em;
-  }
 }
