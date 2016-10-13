@@ -3,7 +3,7 @@
 }
 
 .intro-header {
-  background: url('Walloon-Lake.jpg') no-repeat center center;
+  background: url('./pics/Walloon-Lake.jpg') no-repeat center center;
 }
 
 .img-responsive {
@@ -11,7 +11,7 @@
 }
 
 .banner {
-  background: url('copenhagen.jpg') no-repeat center center;
+  background: url('./pics/copenhagen.jpg') no-repeat center center;
 }
 
 #contrast {
